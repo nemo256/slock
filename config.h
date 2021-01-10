@@ -3,7 +3,7 @@ static const char *user  = "nobody";
 static const char *group = "nogroup";
 
 static const char *colorname[NUMCOLS] = {
-	[INIT] =   "black",     /* after initialization */
+	[INIT] =   "gray",     /* after initialization */
 	[INPUT] =  "blue",   /* during input */
 	[FAILED] = "red",   /* wrong password */
 };
